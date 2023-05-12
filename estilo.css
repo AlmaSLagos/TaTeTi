@@ -1,0 +1,42 @@
+input[type=button]{
+    height: 100px;
+    width: 100px;
+}
+#playI, #playII, #reset{
+    height: 30px;
+    width: 150px;
+}
+#tateti input{
+    margin-bottom: -4px;
+    margin-right: -5px;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    text-decoration: none;
+    outline: none;   
+}
+.ficha{
+height: 40px;
+width: 150px;
+background-color: rgb(236, 236, 236);
+border-color: black;
+border-width: 1px;
+border-style: solid;
+padding-top: 20px;
+}
+div label{
+    padding-left: 25px;
+}
+.invisible{
+    color: white
+}
+.visible{
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+.body{
+    margin-left: 38.5%;
+}

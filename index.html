@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <title>Ta-Te-Ti</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+     <link rel="stylesheet" type="text/css" href="estilo.css"/>
+     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/codigo.js"></script>
+  </head>
+  <body> 
+    <footer><h1>Ta-Te-Ti (Tres en linea)</h1></footer>
+    <div class="body">
+
+      <section id="players">
+        <article>
+          <input type="button" value="1 PLAYER" id="playI">
+          <input type="button" value="2 PLAYERS" id="playII">
+        </article>
+      </section>
+  
+      <section id="tablero" style="display: none;">
+        <article id="tateti">
+          <input type="button"id="b0"value="a"class="invisible"onclick="colocar(this)">
+          <input type="button"id="b1"value="a"class="invisible"onclick="colocar(this)">
+          <input type="button"id="b2"value="a"class="invisible"onclick="colocar(this)"><br>
+          <input type="button"id="b3"value="a"class="invisible"onclick="colocar(this)">
+          <input type="button"id="b4"value="a"class="invisible"onclick="colocar(this)">
+          <input type="button"id="b5"value="a"class="invisible"onclick="colocar(this)"><br>
+          <input type="button"id="b6"value="a"class="invisible"onclick="colocar(this)">
+          <input type="button"id="b7"value="a"class="invisible"onclick="colocar(this)">
+          <input type="button"id="b8"value="a"class="invisible"onclick="colocar(this)"><br>
+        </article>
+        <br><input type="button" value="RESET" id="reset">
+      </section>   
+    </div>          
+  </body>
+</html>
